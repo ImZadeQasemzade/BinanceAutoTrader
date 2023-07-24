@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-TELEGRAM_BOT_TOKEN = '2076688539:AAG6y8_sz43Cee2AWq-5VTOYWMYzvkfFpRY'
-TELEGRAM_CHAT_ID = '-1001657851131'
+TELEGRAM_BOT_TOKEN = 'Telegram Bot Token'
+TELEGRAM_CHAT_ID = 'Telegram Chat ID'
 def message(text):
     bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
     bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=text)
