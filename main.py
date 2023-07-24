@@ -8,8 +8,8 @@ from FilePrepANDTA import *
 now = datetime.datetime.now()
 message("Start date: " + now.strftime("%Y-%m-%d %H:%M:%S"))
 
-api_key = "wKDIRmfCf5h3bxqCTj9Hk1oSNCQJXjih2G65ntdcd58VjUp4aobqrOKAVL0gtjN7"
-secret_key = "BECkHgtFwFlhIKFckqq1BhgRlDMbD5TJcVaIOkrQBj4KqsEPDCA9m39iK4N2zAcI"
+api_key = "API Key"
+secret_key = "Secret Key"
 client = Client(api_key, secret_key)
 
 #>>>>>>>channel strategy<<<<<<<<
